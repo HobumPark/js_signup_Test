@@ -1,0 +1,202 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#wrap{
+    width:1000px;
+    height:1000px;
+    margin:100px auto;
+}
+
+table{
+    width:100%;
+    height:500px;
+    background-color: olive
+ }
+ 
+ tr{
+     width: 100%;
+     height:50px;
+     background-color: cornflowerblue;
+     display: block;
+     margin-bottom: 5px;
+ }
+ th{
+    width: 20%;
+    height:100%;
+    float:left;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: coral;
+ }
+ th>span{
+     color: #d71010;
+ }
+ td{
+     width: 80%;
+     height:100%;
+     float:left;
+     padding-top: 10px;
+     padding-left: 20px;
+     box-sizing: border-box;
+     background-color: chartreuse;
+ }
+ tbody>tr:first-child>td>input{
+     width: 165px;
+     height: 25px;
+ }
+ 
+ tbody>tr:nth-child(2){
+     height:70px;
+     background-color: palegreen;
+ }
+ tbody>tr:nth-child(2)>td>input{
+     width: 130px;
+     height: 25px;
+     margin-right: 10px;
+ }
+ tbody>tr:nth-child(2)>td>span:nth-child(3){
+     font-size: 13px;
+     font-weight: bold;
+     display: inline-block;
+     color: #666666;
+ }
+ tbody>tr:nth-child(2)>td>span:nth-child(4){
+     font-size: 13px;
+     font-weight: bold;
+     color: #c14655;
+     margin-top: 5px;
+     display: block;
+ }
+ 
+ 
+ tbody>tr:nth-child(3){
+     height:70px;
+     background-color: palevioletred;
+ }
+ 
+ tbody>tr:nth-child(3)>td>input{
+     width: 315px;
+     height:30px;
+ }
+ tbody>tr:nth-child(3)>td>span{
+     font-size: 13px;
+     font-weight: bold;
+     color: #c14655;
+     margin-top: 5px;
+     display: block;    
+ }
+ 
+ tbody>tr:nth-child(4)>td>input{
+     width: 315px;
+     height:30px;
+ }
+ 
+ tbody>tr:nth-child(5)>td>select{
+     width:45px;
+     height:30px;
+ }
+ 
+ tbody>tr:nth-child(5)>td>input{
+     width:70px;
+     height:30px;
+ }
+ 
+ tbody>tr:nth-child(6)>td>select{
+     width:50px;
+     height:30px;
+ }
+ tbody>tr:nth-child(6)>td>select:first-child{
+     width:65px;
+     height:30px;
+ }
+ 
+ tbody>tr:nth-child(7){
+     height:130px;
+ }
+ tbody>tr:nth-child(7)>td>input:first-child{
+     width: 90px;
+     height: 30px;
+     display: inline-block;
+     margin-right: 10px;
+     margin-bottom: 5px;
+ }
+ tbody>tr:nth-child(7)>td>input:nth-child(3){
+     width: 635px;
+     height: 30px;
+     display: block;
+     margin-bottom: 5px;
+ }
+ tbody>tr:nth-child(7)>td>input:nth-child(4){
+     width: 635px;
+     height: 30px;
+     display: block;
+     margin-bottom: 5px;
+ }
+ 
+ 
+ #duplicate-check{
+     display: inline-block;
+     height: 30px;
+     line-height: 30px;
+     color: #fff !important;
+     background: #666;
+     text-align: center;
+ }
+ 
+ #search-post{
+     display: inline-block;
+     width:120px;
+     height: 30px;
+     line-height: 30px;
+     color: #fff !important;
+     background: #666;
+     text-align: center;
+ }
+ 
+ th{
+     background-color: #f5f5f5;
+   
+     display: block;
+ }
+ 
+#btn-area{
+    width:100%;
+    height:70px;
+    text-align: center;
+    background-color: coral;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#btn-area>#btn-area-inner{
+    display: inline-block;
+    background-color: cyan;
+}
+
+#btn-area>#btn-area-inner>button{
+    width: 180px;
+    height: 40px;
+    background-color: #323a5a;
+    color:#ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ #sign-up-btn{
+    margin-right: 10px;
+ }
+ 
+ #cancel{
+
+ }
